@@ -43,6 +43,12 @@ const vue_app = Vue.createApp({
       }
     },
       methods: {
+            posterClick(movie){
+                  movie.posterindex++;
+                  if (movie.posterindex > movie.posters.length - 1) {
+                      movie.posterindex = 0;
+                  }
+              },
 getMonthText(dataArray){
       let month = '';
       switch(dataArray[1]){
@@ -84,8 +90,11 @@ getMonthText(dataArray){
                         break;
       }
       return month + ", " + dataArray[2] + ", " + dataArray[1]
-}     
 }
+
+}
+
+
 })
 
 vue_app.mount("#vue_app")
