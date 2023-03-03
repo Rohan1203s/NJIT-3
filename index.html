@@ -47,7 +47,7 @@
 
 						<p class="title">{{ movies[i].title}} </p>
 						<p class="score"><i class="bi bi-star" aria-hidden="true"></i> {{ movies[i].iscore }} </p>
-						<p class="runtime">runtime: {{movies[i].runtime}}</p>
+						<p class="runtime">runtime: {{timeText(movies[i].runtime)}}</p>
 						<p class="released">Released: {{getMonthText (movies[i].released)}}</p>
 						<p class="websites">Websites: <a :href="movies[i].imdb">imdb</a> | <a :href="movies[i].website">website</a></p>
 
