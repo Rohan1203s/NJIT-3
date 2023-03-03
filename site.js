@@ -47,8 +47,13 @@ const vue_app = Vue.createApp({
                   movie.posterindex++;
                   if (movie.posterindex > movie.posters.length - 1) {
                       movie.posterindex = 0;
-                  }
+                  }  
               },
+              timeText(minutes) {
+      var hours = Math.floor(minutes / 60);
+      var minutes = minutes % 60;
+      return hours + ' hours, ' + minutes + ' minutes';           
+                },
 getMonthText(dataArray){
       let month = '';
       switch(dataArray[1]){
