@@ -68,5 +68,47 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "Avatar Way of Water",
+            "iscore": 7.8,
+            "rating": "PG-13",
+            "runtime": 192,
+            "released": [2022, 12, 16],
+            "country": "USA",
+            "posters": ["img/schindlerslist.jpg"],
+            "imdb": "https://www.imdb.com/title/tt1630029/",
+            "website": "https://www.avatar.com/movies/avatar-the-way-of-water",
+            "likes": 812,
+            "dislikes": 101,
+            "posterindex": 0
+      },
+      {
+            "title": "Ready Player One",
+            "iscore": 7.4,
+            "rating": "PG-13",
+            "runtime": 140,
+            "released": [2018, 3, 29],
+            "country": "USA",
+            "posters": ["img/schindlerslist.jpg"],
+            "imdb": "https://www.imdb.com/title/tt1677720/",
+            "website": "https://www.warnerbros.com/movies/ready-player-one",
+            "likes": 812,
+            "dislikes": 101,
+            "posterindex": 0
+      },
+      {
+            "title": "Schindler's List",
+            "iscore": 8.9,
+            "rating": "R",
+            "runtime": 195,
+            "released": [1993, 11, 30],
+            "country": "USA",
+            "posters": ["img/schindlerslist.jpg"],
+            "imdb": "http://www.imdb.com/title/tt0108052",
+            "website": "https://www.uphe.com/schindlers-list",
+            "likes": 812,
+            "dislikes": 101,
+            "posterindex": 0
       }
 ]
