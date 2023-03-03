@@ -37,8 +37,8 @@ const vue_app = Vue.createApp({
             movies: [        /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
 
             ],
-               appTitle: 'IMDB + Michael’s Top 8 Movies',
-               owner: 'micheal',
+               appTitle: 'IMDB + Rohan’s Top 8 Movies',
+               owner: 'Rohan S.',
                github: 'http://www.github.com/mjslee/is219lee-p3'
       }
     },
@@ -94,7 +94,7 @@ getMonthText(dataArray){
                         month = 'December';
                         break;
       }
-      return month + ", " + dataArray[2] + ", " + dataArray[1]
+      return month + ", " + dataArray[2] + ", " + dataArray[0]
 }
 
 }
